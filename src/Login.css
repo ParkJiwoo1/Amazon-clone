@@ -1,0 +1,33 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_container {
+  width: 250px;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+.login_logo {
+  width: 150px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login_container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login_container > form > h5 {
+  margin-bottom: 5px;
+}
+.login_container > form > input {
+  height: 25px;
+  margin-bottom: 10px;
+  width: 98%;
+}
